@@ -40,7 +40,7 @@ public class CategoryController {
         service.deleteCategoryById(id);
     }
 
-    @PutMapping("/update-item")
+    @PutMapping("/update-category")
     @ResponseStatus(HttpStatus.ACCEPTED)
     public void updateCategoryById(@RequestBody CategoryDto categoryDto){
         service.updateCategoryById(categoryDto);
