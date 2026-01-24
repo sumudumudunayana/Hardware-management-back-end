@@ -3,7 +3,6 @@ package org.example.controller;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.example.dto.CompanyDto;
-import org.example.dto.ItemDto;
 import org.example.service.CompanyService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
