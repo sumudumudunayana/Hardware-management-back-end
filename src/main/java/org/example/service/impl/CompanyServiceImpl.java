@@ -39,7 +39,6 @@ public class CompanyServiceImpl implements CompanyService {
     @Override
     public CompanyDto searchCompanyById(Integer id) {
         return mapper.map(repository.findById(id),CompanyDto.class);
-
     }
 
     @Override
