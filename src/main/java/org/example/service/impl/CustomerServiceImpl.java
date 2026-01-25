@@ -40,7 +40,6 @@ public class CustomerServiceImpl implements CustomerService {
     public CustomerDto searchCustomerById(Integer id) {
         return mapper.map(repository.findById(id),CustomerDto.class);
 
-
     }
 
     @Override
