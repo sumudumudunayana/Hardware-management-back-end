@@ -39,7 +39,6 @@ public class CategoryServiceImpl implements CategoryService {
     @Override
     public CategoryDto searchCategoryById(Integer id) {
         return mapper.map(repository.findById(id),CategoryDto.class);
-
     }
 
     @Override
