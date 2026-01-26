@@ -40,7 +40,6 @@ public class DistributorServiceImpl implements DistributorService{
     public DistributorDto searchDistributorById(Integer id) {
         return mapper.map(repository.findById(id),DistributorDto.class);
 
-
     }
 
     @Override
