@@ -41,7 +41,6 @@ public class ItemServiceImpl implements ItemService {
     public ItemDto searchItemById(Integer id) {
         return mapper.map(repository.findById(id),ItemDto.class);
 
-
     }
 
     @Override
