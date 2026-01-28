@@ -1,5 +1,4 @@
 package org.example.service.impl;
-
 import lombok.RequiredArgsConstructor;
 import org.example.dto.CompanyDto;
 import org.example.entity.CompanyEntity;
