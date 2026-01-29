@@ -5,7 +5,6 @@ import org.example.dto.CompanyDto;
 import org.example.service.CompanyService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
